@@ -1,0 +1,25 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsriram7/vccodenodetest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsriram7/vccodenodetest/issues"
+  },
+  "homepage": "https://github.com/jsriram7/vccodenodetest#readme",
+  "dependencies": {
+    "eslint": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1"
+  }
+}
