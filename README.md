@@ -1,5 +1,16 @@
 # Git Commands
 
+# To make a repository a git repository
+cd repository
+git init
+
+# To add origin or head 
+git remote add origin https://github.com/username/new_repo
+git push -u origin master
+
+# To remove origin or head
+git remote rm origin
+
 # To switch between local repositories:
 git checkout
 
