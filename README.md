@@ -11,11 +11,23 @@ git push -u origin master
 # To remove origin or head
 git remote rm origin
 
-# To switch between local repositories:
-git checkout
+# To create a new branch
+git checkout -b newbranch name
 
-# To branch from a repository and switch local to the local branch
+# To check out a branch from git and switch between branches
+git checkout master
+
+# To create a new branch(-b) and branch from a repository and switch local to the local branch
 git checkout -b newbranchname existingbranchname
+
+# Delete a local branch
+1. move to another branch - git checkout master
+2. delete the local branch -  git branch -d Test_Branch
+2.1 If above command gives you error - The branch 'Test_Branch' is not fully merged. If you are sure you want to delete it and     still you want to delete it, then you can force delete it using -D instead of -d, as:
+    git branch -D Test_Branch
+
+# Delete a remote branch
+git push origin --delete Test_Branch
 
 # To know which files are to be commited
 git status
